@@ -1,15 +1,30 @@
 body{
     background-color: rgb(0, 217, 255);
-    height: 100vh;
+    min-height: 100vh;
+    margin : 0px;
+    padding: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 300px;
+    background: white;
+    border-radius: 4px;
+    padding: 20px 24px;
+
+}
 #numtaker{
     width: 250px;
     height: 30px;
     border-radius: 4px ;
+    
 }
 
 button{
@@ -19,9 +34,10 @@ button{
     cursor: pointer;
 }
 p{
-    
+    background-color: black;
+    color: brown;
     margin-top: 0px;
-    font-size: 22px;
+    font-size: 44px;
     font-weight: bold;
     transform: scale(1.1);
 
