@@ -1,6 +1,6 @@
-let input = document.getElementById("numtaker")
-let output = document.getElementById("output")
-let button = document.getElementById("subbtn")
+let input = document.getElementById("numtaker");
+let output = document.getElementById("output");
+let button = document.getElementById("subbtn");
 
 
 button.onclick = function(){
